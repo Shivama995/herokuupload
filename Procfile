@@ -1,1 +1,1 @@
-web: java $JAVA_OPTS -Dserver.port=$PORT -jar HerokuUpload.jar
+web: java -Dserver.port=$PORT $JAVA_OPTS -jar target/HerokuUpload-0.0.1-SNAPSHOT.jar
